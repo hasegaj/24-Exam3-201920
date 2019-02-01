@@ -140,7 +140,10 @@ def problem1(n):
     # As always, CONTINUE to the next problem if you are STUCK on this one.
     # -------------------------------------------------------------------------
     a = 0
-    while a<n:
+    while True:
+        a = a + 1
+        if n <= fibonacci(a):
+            return fibonacci(a-1)
 
 
 ###############################################################################

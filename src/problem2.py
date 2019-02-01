@@ -82,13 +82,14 @@ def shape(n):
     ####################################################################
 
     for k in range(n):
-        #for j in range(k):
-            #if j > 0:
-
+        h = []
+        for j in range(1, k+1):
+            if j > 0:
+                h = h + [j]
 
         number = (n-k)
         g = n - number
-        print('!'*number, '*', '?'*g)
+        print('!'*number, '*', h)
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
