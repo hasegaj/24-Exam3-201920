@@ -91,6 +91,7 @@ def shape(n):
         number = (n-k)
         g = tuple(h)
         print('!'*number, '*', g)
+        #i can't get the stupid commas and parenthesis to disappear i give up
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
