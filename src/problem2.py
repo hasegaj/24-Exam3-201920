@@ -85,11 +85,12 @@ def shape(n):
         h = []
         for j in range(1, k+1):
             if j > 0:
-                h = h + [j]
+                e = str(j)
+                h = h + [e]
 
         number = (n-k)
-        g = n - number
-        print('!'*number, '*', h)
+        g = tuple(h)
+        print('!'*number, '*', g)
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
